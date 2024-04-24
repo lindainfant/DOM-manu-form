@@ -1,0 +1,10 @@
+.table{
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    border: 5px;
+    margin: 20px;
+    text-align:center;
+    display: flex;
+    padding: 20px;
+}

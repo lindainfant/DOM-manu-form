@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation with Form</title>
+    <link src="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
+    
+</head>
+<body>
+    <h1> DOM manipulation with Forms</h1>
+    <script src="http://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <p>This is form  manipulation using by DOM javascript</p>
+    
+    <div class="table">
+        <form>
+            <fieldset>
+                <legend><strong>Customer Form</strong></legend>
+           <label>First Name :</label>
+           <input type="text" id="fname" name="First Name" placeholder="Your First Name"><br><br>
+           <label>Last Name :</label>
+           <input type="text"  id="name" name="lastname" placeholder="Your Last Name"><br><br>
+           <label> Address :</label>
+           <input type="text" id="Address" name="Address" placeholder="Enter Your Address"><br><br>
+           <label> Pincode :</label>
+           <input type="number"  id=Pincode name="Pincode" ><br><br>
+           <label> Gender :</label>
+           <input type="radio"  id="gender" name="gender" value="male">
+           <label>Male</label>
+           <input type="radio"  id="male" name="gender" value="female" checked>
+           <label>Female</label>
+           <input type="radio" id="female" name="gender" value="others">
+           <label>Others</label>
+    
+        <br><br>
+           <label>Food <i>(Optional)</i></label>
+        <div class="form-inline">
+            <label><input type="checkbox" name="food" value="Pepper chicken">Pepper Chicken</label>
+            <label><input type="checkbox" name="food" value="Grill Chicken" checked>Grill Chicken</label>
+            <label><input type="checkbox" name="food" value="Fried Rice">Fried Rice</label>
+            <label><input type="checkbox" name="food" value="Briyani" checked>Briyani</label>
+            <label><input type="checkbox" name="food" value="Pot parotta">Pot Parotta</label>  
+        </div>
+        <br>
+        <div class="state">
+        <label for="State">State</label>
+        <select id="State" name="State">
+           <option value="Kerala">Kerala</option>
+           <option value="Karnataka">Karnataka</option>
+           <option value="Gujrat">Gujarat</option>
+           <option value="Tamil Nadu">Tamil Nadu</option>
+           <option value="Delhi">Delhi</option>
+        </select>
+    </div>
+        <br>
+        <div class=country>
+        <label for="Country">Country</label>
+        <select id="Country" name="Country">
+           <option value="India">India</option>
+           <option value="australia">Australia</option>
+           <option value="China">China</option>
+           <option value="Usa">USA</option>
+           <option value="Canada">Canada</option>
+        </select>
+    </div><br><br>
+<div class="form2">
+    <input type="submit" value="submit">
+    <input type="reset" value="Reset">
+    </div>
+</fieldset>
+        </form>
+    </div>
+</body>
+</html>
